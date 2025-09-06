@@ -119,10 +119,6 @@ GET /chat/profile/ → Get own profile
 
 PATCH /chat/profile/ → Update profile (username / profile picture)
 
-📸 Screenshots
-
-(Add your screenshots here, e.g., login page, chat window, profile update, etc.)
-
 🏆 Future Improvements
 
 ✅ Real-time WebSocket chat (Django Channels / Socket.io)
