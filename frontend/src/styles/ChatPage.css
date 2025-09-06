@@ -1,0 +1,32 @@
+.chat-container {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  background: #121212;
+  color: #e0e0e0;
+}
+
+.user-list {
+  width: 25%;
+  max-width: 300px;
+  background: #1f1f1f;
+  border-right: 1px solid #333;
+  overflow-y: auto;
+  color: #fff;
+}
+
+.chat-window {
+  flex: 1;
+  background: #0b141a;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: #0f0101;
+}
+
+.chat-window p {
+  margin: auto;
+  font-size: 18px;
+  color: #f3eded;
+}
